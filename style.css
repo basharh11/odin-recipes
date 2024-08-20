@@ -2,6 +2,13 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h1,
+h2,
+img {
+    border-radius: 16px;
+    padding: 10px;
+}
+
 h1 {
     background-color: rgb(32, 32, 32);
     color: white;
@@ -30,6 +37,9 @@ p {
 
 .homelist {
     font-size: 32px;
+    text-align: center;
+    padding: 0px;
+    list-style: none;
 }
 
 .ingredientslist,
@@ -40,10 +50,27 @@ p {
 img {
     display: block;
     height: auto;
-    width: 500px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
+    padding: 0px;
+    border-radius: 16px;
+    border: 2px solid rgb(32, 32, 32);
 }
 
+.homelistelement {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 2px solid rgb(32, 32, 32);
+    border-radius: 16px;
+    padding: 8px;
+    width: 250px;
+    background-color: #464646;
+}
 
-
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
